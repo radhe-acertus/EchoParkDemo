@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.EchoPark.TestCases.TC_LoginTest0001">
+        <methods>
+          <include name="LoginTest_Validate_PhNumber"/>
+          <include name="LoginPage_ContactUS_Email"/>
+          <include name="setup"/>
+          <include name="LoginTest_ForgotPwd"/>
+          <include name="ResetPwdLink_Mailtrap"/>
+          <include name="loginTest_InvalidIdPwd"/>
+          <include name="LoginPage_logo_comparison"/>
+          <include name="loginTest_NoPwd"/>
+          <include name="loginTest_loginFrameFoot"/>
+          <include name="RestPwd_EmailValidation"/>
+          <include name="LoginTest_TimingInfo_Banner"/>
+          <include name="LoginTest_InvalidPwd"/>
+          <include name="ForgotPwd_ValidEmail_validatation"/>
+          <include name="Login_ContactNum_Validation"/>
+          <include name="loginTest_Happypath"/>
+          <include name="loginTest_InvalidUname"/>
+          <include name="loginTest_NoUname"/>
+          <include name="tearDown"/>
+          <include name="LoginTest_WeekInfo_Banner"/>
+          <include name="loginTest_loginFrameVerbiage"/>
+        </methods>
+      </class> <!-- com.EchoPark.TestCases.TC_LoginTest0001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
